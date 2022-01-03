@@ -1,6 +1,8 @@
 local fg = table.deepcopy(data.raw["gate"]["gate"])
 fg.name = "fastGate"
 fg.opening_speed = 0.5
+fg.placeable_by = {item = "fastGate", count = 1}
+fg.minable = { mining_time = 0.1, result = "fastGate", count = 1}
 
 fg.vertical_animation.layers[1].filename = "__FastGate__/graphics/gate-vertical.png"
 fg.vertical_animation.layers[1].hr_version.filename = "__FastGate__/graphics/hr-gate-vertical.png"
