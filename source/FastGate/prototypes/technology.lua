@@ -24,7 +24,7 @@ fg =
       },
       time = 20
     },
-    upgrade = "true",
+    upgrade = true,
     order = "e-o-b"
   }
   data:extend{fg}
